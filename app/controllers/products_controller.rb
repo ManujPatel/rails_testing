@@ -12,7 +12,7 @@ class ProductsController < ApplicationController
     @product = Product.new(product_params)
     @product.user = current_user
     if @product.save
-      format.html { redirect_to products_path, notice: "Product was successfully created." }
+      redirect_to products_path
     else
       flash[:errors] = @product.errors.full_messages
       render 'new_product_path'
