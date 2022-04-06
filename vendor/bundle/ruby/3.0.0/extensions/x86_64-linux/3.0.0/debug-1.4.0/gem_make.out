@@ -1,0 +1,16 @@
+current directory: /home/manujpatel/rails_projects/testing_app/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+/home/manujpatel/.rbenv/versions/3.0.2/bin/ruby -I /home/manujpatel/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20220324-116264-4bqlt1.rb extconf.rb
+creating Makefile
+
+current directory: /home/manujpatel/rails_projects/testing_app/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= clean
+
+current directory: /home/manujpatel/rails_projects/testing_app/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/manujpatel/rails_projects/testing_app/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20220324-116264-s1ku6c/debug
