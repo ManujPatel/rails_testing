@@ -13,5 +13,18 @@ class UserTest < ActiveSupport::TestCase
       assert @user.valid?
     end
 
+    test "should have password " do
+      @user = User.new
+      @user.password = ""
+      assert_not @user.save
+    end
+
+
+    test "should have email " do
+      @user = User.new
+      @user.email = ""
+      assert_not @user.save
+    end
+
 
 end
